@@ -10,5 +10,6 @@
 	//coming Soon
 
 	# 01. INITIALIZE
-	require('constants.php');		 #constant variable
+	require('constants.php');		     #constant variable
 	require('functions.global.php');	 #helper class and function
+	require('database.php');             #Db connect
