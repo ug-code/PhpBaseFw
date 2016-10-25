@@ -22,7 +22,9 @@ https://ug-code.github.io/PhpBaseFw/
 
 8-) Düzenli Not tutma alanı ("/_note") klasörü içindeki Default dökümantasyon bulunmakta.
 
-9-) Düzenli Klasörleme yapısı. Herhangi bir kodlama yapısı öğrenmek zorunda kalmadan direk uygulama
+9-) (" _test") Ufak class,function'ları test edebileceginiz alandır.Tek yapılması gereken Config.globası dahil etmeniz ve keyfinize bakmanız.
+
+10-) Düzenli Klasörleme yapısı. Herhangi bir kodlama yapısı öğrenmek zorunda kalmadan direk uygulama
 
 ### İkinci Version Düşünülenler
 1-) Insert,Update,Delete auto triger ve otomatik json çıktısı.
