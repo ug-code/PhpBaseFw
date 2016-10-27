@@ -7,7 +7,6 @@
 		**/
 
 	#install Framework	
-	require ('config/config.global.php');
-	
+	require (dirname(__FILE__).'/config/config.global.php');
 	
 	echo "Hello FrameWork";

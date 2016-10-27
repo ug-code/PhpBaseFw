@@ -8,7 +8,8 @@
 	// -----------------------------------------------------------------------
 	define("RELATIVE_PATH_ROOT" 	, '');
 	define("LOCAL_PATH_ROOT" 		, $_SERVER["DOCUMENT_ROOT"]);         #http:/ urlname
-	define("schema"                  , (@$_SERVER["HTTPS"] == "on") ? "https://" : "http://");
+	define( 'ABSPATH'               , dirname(__FILE__) . '/' );          #now folder example: E:\www\blabla\PhpBaseFw\_test/ 
+	define("schema"                 , (@$_SERVER["HTTPS"] == "on") ? "https://" : "http://");
 	define("HTTP_PATH_ROOT" 		, isset($_SERVER["HTTP_HOST"]) ? schema. $_SERVER["HTTP_HOST"] : (isset($_SERVER["SERVER_NAME"]) ? $_SERVER["SERVER_NAME"] : '_UNKNOWN_'));
 
 	define("URL_SEPARATOR" 			, '/');
